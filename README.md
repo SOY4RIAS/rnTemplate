@@ -1,3 +1,3 @@
-# rnTemplate
+# Project Template
 
-Template In Progress
+* Progress = 0.01%
