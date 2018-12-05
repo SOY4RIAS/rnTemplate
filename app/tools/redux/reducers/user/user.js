@@ -1,4 +1,4 @@
-export function user(state = false, action) {
+export default function user(state = false, action) {
   switch (action.type) {
 
     case 'SET_USER': {

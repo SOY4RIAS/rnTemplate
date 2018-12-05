@@ -9,4 +9,7 @@ const persistConfig = {
   blacklist: []
 }
 
-export default persistReducer(persistConfig, reducers)
+const persisted = persistReducer(persistConfig, reducers)
+console.log(persisted);
+
+export default persisted
